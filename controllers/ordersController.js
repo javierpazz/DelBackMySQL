@@ -16,10 +16,10 @@ module.exports = {
             }
 
             for (const d of data) {
-                d.address = (d.address);
-                d.client = (d.client);
-                d.products =( d.products);
-                d.delivery = (d.delivery);
+                d.address = d.address;
+                d.client = d.client;
+                d.products = d.products;
+                d.delivery = d.delivery;
             }
             
             
@@ -41,10 +41,10 @@ module.exports = {
             }
 
             for (const d of data) {
-                d.address = (d.address);
-                d.client = (d.client);
-                d.products = (d.products);
-                d.delivery = (d.delivery);
+                d.address = d.address;
+                d.client = d.client;
+                d.products = d.products;
+                d.delivery = d.delivery;
             }
             
             
@@ -66,10 +66,10 @@ module.exports = {
             }
 
             for (const d of data) {
-                d.address = (d.address);
-                d.client = (d.client);
-                d.products = (d.products);
-                d.delivery = (d.delivery);
+                d.address = d.address;
+                d.client = d.client;
+                d.products = d.products;
+                d.delivery = d.delivery;
             }
             
             

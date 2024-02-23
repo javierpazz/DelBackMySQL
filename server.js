@@ -7,6 +7,7 @@ const cors = require('cors');
 const passport = require('passport');
 const multer = require('multer');
 const io = require('socket.io')(server);
+const { dbConnection } = require('./config/config');
 // const mercadopago = require('mercadopago');
 // mercadopago.configure({
 //     sandbox: true,
@@ -38,7 +39,11 @@ app.use(express.urlencoded({
 }));
 
 
+
 app.use(cors());
+// Lectura y parseo del body
+app.use( express.json() );
+
 app.use(passport.initialize());
 app.use(passport.session());
 
